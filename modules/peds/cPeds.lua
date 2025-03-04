@@ -8,13 +8,8 @@ CreateThread(function()
         if v.Scenario and not v.AnimationName and not v.AnimationDict then
             TaskStartScenarioInPlace(ped, v.Scenario, 0, true)
         end
-        if v.AnimationName and v.AnimationDict and not v.Scenario then
-            while true do 
-                if not IsEntityPlayingAnim(ped, v.AnimationDict, v.AnimationName, 3) then
-                    AnimationPed(ped, v.AnimationDict, v.AnimationName)
-                end
-                Wait(800)
-            end
+        if v.AnimationName and v.AnimationDict and not v.Scenario then        
+            AnimationPed(ped, v.AnimationDict, v.AnimationName) 
         end
         FreezeEntityPosition(ped, true)
         SetEntityInvincible(ped, true)

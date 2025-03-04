@@ -67,5 +67,6 @@ end
 
 AnimationPed = function(ped, dict, anim)
     if not DoesEntityExist(ped) and not dict and not anim then return end
-    lib.playAnim(ped, dict, anim, 3.0, 1.0, -1, 1, 0, 0, 0, 0)
+    lib.requestAnimDict(dict, true)
+    lib.playAnim(ped, dict, anim, 3.0, 1.0, -1, 1, 0, false, false, false)
 end
