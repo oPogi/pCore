@@ -64,3 +64,8 @@ Progress = function(time, label, dict, clip)
         })
     end
 end
+
+AnimationPed = function(ped, dict, anim)
+    if not DoesEntityExist(ped) and not dict and not anim then return end
+    lib.playAnim(ped, dict, anim, 3.0, 1.0, -1, 1, 0, 0, 0, 0)
+end
