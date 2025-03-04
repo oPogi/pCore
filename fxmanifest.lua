@@ -11,8 +11,7 @@ shared_scripts {
     "modules/boss/cfgBoss.lua",
     "modules/annonce/cfgAnnonce.lua",
     "modules/peds/cfgPeds.lua",
-    "modules/garage/cfgGarage.lua",
-    "modules/restaurant/cfgRestaurant.lua"
+    "modules/garage/cfgGarage.lua"
 }
 
 client_scripts {
@@ -23,7 +22,7 @@ client_scripts {
     "modules/boss/cBoss.lua",
     "modules/annonce/cAnnonce.lua",
     "modules/peds/cPeds.lua",
-    "modules/garage/cGarage.lua",
+    "modules/garage/cGarage.lua"
 }
 
 server_scripts {
@@ -31,16 +30,5 @@ server_scripts {
     "modules/coffre/sCoffre.lua",
     "modules/plateau/sPlateau.lua",
     "modules/boss/sBoss.lua",
-    "modules/annonce/sAnnonce.lua",
-}
-
-escrow_ignore {
-    "lib/*.lua",
-    "modules/*/cfgBlips.lua",
-    "modules/*/cfgCoffre.lua",
-    "modules/*/cfgPlateau.lua",
-    "modules/*/cfgBoss.lua",
-    "modules/*/cfgAnnonce.lua",
-    "modules/*/cfgPeds.lua",
-    "modules/*/cfgGarage.lua",
+    "modules/annonce/sAnnonce.lua"
 }
