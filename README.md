@@ -1,4 +1,4 @@
-This is simple a core for functionality in your roleplay server, Mostly to make is optimised and clean in one file only instead of different files.
+This is simple a core for functionality in your roleplay server, Mostly to make it optimised and clean in one file only instead of different files.
 
 You will be able to create: Stash, Blips, Garage, Exchange stash, Peds, Boss menu, Job annonce aswell
 
