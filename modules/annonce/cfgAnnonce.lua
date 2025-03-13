@@ -5,7 +5,8 @@ return {
         ["Target_iconColor"] = "white",
         ["Input_title"] = "Faire une annonce",
         ["Input_labeltitle"] = "Titre",
-        ["Input_labeldescription"] = "Description"
+        ["Input_labeldescription"] = "Description",
+        ["Zone_label"] = "Appuie sur [E] pour faire une annonce"
     },
 
     Annonce = {

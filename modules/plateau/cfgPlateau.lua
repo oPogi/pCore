@@ -3,6 +3,7 @@ return {
         ["Target_label"] = "Plateau d'entreprise",
         ["Target_icon"] = "fas fa-box-open",
         ["Target_iconColor"] = "white",
+        ["Zone_label"] = "Appuie sur [E] pour ouvrir le plateau"
     },
     
     Plateau = {

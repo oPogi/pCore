@@ -1,5 +1,9 @@
 pCore = exports['es_extended']:getSharedObject()
 
+pCoreUse = {
+    UseMarker = true -- false = target true = marker
+}
+
 GetJob = function()
     local job = pCore.GetPlayerData().job
     if job ~= nil then
